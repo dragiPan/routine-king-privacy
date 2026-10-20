@@ -7,7 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --rk-navy: #13213B; --rk-navy-light: #24396A; --rk-gold: #B8924A; --rk-gold-light: #E4CF9F;
+    --rk-navy: #13213B; --rk-navy-light: #24396A; --rk-gold: #DEAE45; --rk-gold-light: #E4CF9F;
     --rk-cream: #F6F1E7; --rk-white: #FFFFFF; --rk-ink-soft: #3E4A63; --rk-line: #D8CFBE;
     --rk-font-display: "Playfair Display", Georgia, "Times New Roman", serif;
     --rk-font-body: "Inter", "Helvetica Neue", Arial, sans-serif;
@@ -15,7 +15,7 @@
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--rk-cream); color: var(--rk-navy); font: 400 16px/1.6 var(--rk-font-body); }
   header { background: var(--rk-navy); color: var(--rk-cream); text-align: center; padding: 48px 16px; }
-  header svg { width: 72px; color: var(--rk-gold); margin-bottom: 24px; }
+  header svg { width: 52px; color: var(--rk-gold); margin-bottom: 24px; }
   h1 { font: 800 40px/1.2 var(--rk-font-display); margin: 0 0 8px; }
   header p { color: var(--rk-gold-light); margin: 0; }
   main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
@@ -27,15 +27,15 @@
   .label { font-weight: 500; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--rk-ink-soft); margin: 48px 0 16px; }
   a { color: var(--rk-navy-light); }
   footer { background: var(--rk-navy); color: var(--rk-cream); text-align: center; padding: 32px 16px; font-size: 13px; }
-  footer svg { width: 32px; color: var(--rk-gold); display: block; margin: 0 auto 8px; }
+  footer svg { width: 24px; color: var(--rk-gold); display: block; margin: 0 auto 8px; }
   @media (min-width: 640px) { header { padding: 64px 16px; } h1 { font-size: 48px; } }
 </style>
 </head>
 <body>
 <header>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108.1 71.2" fill="currentColor" aria-hidden="true">
-    <path d="M 94.07 23.53 L 95.75 27.31 C 96.79 29.65 96.25 32.46 94.43 34.18 C 91.82 36.64 87.76 35.89 86.08 32.62 L 85.83 32.14 C 84.59 29.74 85.09 26.74 87.01 24.94 L 89.42 22.7 L 82.88 3.91 C 82.57 3.01 81.42 2.88 80.94 3.7 L 71.19 20.28 L 72.67 22.6 C 74.34 25.21 74.02 28.72 71.93 30.95 L 71.62 31.28 C 68.86 34.2 64.3 33.68 62.18 30.2 C 60.61 27.62 60.93 24.21 62.95 22.02 L 65.17 19.61 L 54.99 0.59 C 54.57 -0.19 53.52 -0.19 53.1 0.59 L 42.93 19.61 L 45.15 22.02 C 47.17 24.21 47.49 27.62 45.92 30.2 C 43.8 33.68 39.23 34.2 36.48 31.28 L 36.18 30.95 C 34.08 28.72 33.76 25.21 35.43 22.6 L 36.91 20.28 L 27.16 3.7 C 26.68 2.88 25.53 3.01 25.22 3.91 L 18.68 22.7 L 21.08 24.94 C 23.01 26.74 23.51 29.74 22.27 32.14 L 22.02 32.62 C 20.34 35.89 16.28 36.64 13.67 34.18 C 11.85 32.46 11.31 29.65 12.35 27.31 L 14.03 23.53 L 2.07 10.43 C 1.32 9.6 0.01 10.34 0.23 11.48 L 9.57 59.69 L 98.53 59.69 L 107.87 11.48 C 108.09 10.34 106.78 9.6 106.03 10.43 Z"/>
-    <path d="M 98.55 71.08 L 9.55 71.08 L 9.55 63.67 L 98.55 63.67 Z"/>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.41 91.09" fill="currentColor" aria-hidden="true">
+    <path d="M91.41 91.09L91.41 73.91L0 73.91L0 91.09L91.41 91.09Z"/>
+    <path d="M59.68 66.03L74.24 66.03L91.41 66.03C91.41 23.13 91.41 16.97 91.41 0L72.74 18.66C72.85 18.82 72.94 18.96 73.05 19.12C77.59 24.08 80.64 30.16 81.86 36.73C82.52 40.35 81.55 44.07 79.2 46.9C76.84 49.73 73.35 51.38 69.68 51.38L69.67 51.38C65.2 51.38 61.27 48.42 60.03 44.13C58.79 39.84 60.54 35.25 64.32 32.86C65.48 32.13 66.73 31.51 68.05 31.03L45.7 11.66L23.35 31.03C24.67 31.51 25.92 32.13 27.08 32.86C30.86 35.25 32.61 39.84 31.37 44.13C30.13 48.42 26.2 51.38 21.73 51.38L21.72 51.38C18.05 51.38 14.56 49.73 12.2 46.9C9.85 44.07 8.88 40.35 9.55 36.73C10.76 30.16 13.81 24.08 18.35 19.12C18.46 18.96 18.55 18.82 18.66 18.66L0 0C0 16.97 0 23.13 0 66.03L17.16 66.03L31.73 66.03L59.68 66.03Z"/>
   </svg>
   <h1>Politika privatnosti</h1>
   <p>Routine King · Dragi Pantović Fitness · ažurirano 17. 10. 2026.</p>
@@ -83,9 +83,9 @@
 </main>
 
 <footer>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108.1 71.2" fill="currentColor" aria-hidden="true">
-    <path d="M 94.07 23.53 L 95.75 27.31 C 96.79 29.65 96.25 32.46 94.43 34.18 C 91.82 36.64 87.76 35.89 86.08 32.62 L 85.83 32.14 C 84.59 29.74 85.09 26.74 87.01 24.94 L 89.42 22.7 L 82.88 3.91 C 82.57 3.01 81.42 2.88 80.94 3.7 L 71.19 20.28 L 72.67 22.6 C 74.34 25.21 74.02 28.72 71.93 30.95 L 71.62 31.28 C 68.86 34.2 64.3 33.68 62.18 30.2 C 60.61 27.62 60.93 24.21 62.95 22.02 L 65.17 19.61 L 54.99 0.59 C 54.57 -0.19 53.52 -0.19 53.1 0.59 L 42.93 19.61 L 45.15 22.02 C 47.17 24.21 47.49 27.62 45.92 30.2 C 43.8 33.68 39.23 34.2 36.48 31.28 L 36.18 30.95 C 34.08 28.72 33.76 25.21 35.43 22.6 L 36.91 20.28 L 27.16 3.7 C 26.68 2.88 25.53 3.01 25.22 3.91 L 18.68 22.7 L 21.08 24.94 C 23.01 26.74 23.51 29.74 22.27 32.14 L 22.02 32.62 C 20.34 35.89 16.28 36.64 13.67 34.18 C 11.85 32.46 11.31 29.65 12.35 27.31 L 14.03 23.53 L 2.07 10.43 C 1.32 9.6 0.01 10.34 0.23 11.48 L 9.57 59.69 L 98.53 59.69 L 107.87 11.48 C 108.09 10.34 106.78 9.6 106.03 10.43 Z"/>
-    <path d="M 98.55 71.08 L 9.55 71.08 L 9.55 63.67 L 98.55 63.67 Z"/>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.41 91.09" fill="currentColor" aria-hidden="true">
+    <path d="M91.41 91.09L91.41 73.91L0 73.91L0 91.09L91.41 91.09Z"/>
+    <path d="M59.68 66.03L74.24 66.03L91.41 66.03C91.41 23.13 91.41 16.97 91.41 0L72.74 18.66C72.85 18.82 72.94 18.96 73.05 19.12C77.59 24.08 80.64 30.16 81.86 36.73C82.52 40.35 81.55 44.07 79.2 46.9C76.84 49.73 73.35 51.38 69.68 51.38L69.67 51.38C65.2 51.38 61.27 48.42 60.03 44.13C58.79 39.84 60.54 35.25 64.32 32.86C65.48 32.13 66.73 31.51 68.05 31.03L45.7 11.66L23.35 31.03C24.67 31.51 25.92 32.13 27.08 32.86C30.86 35.25 32.61 39.84 31.37 44.13C30.13 48.42 26.2 51.38 21.73 51.38L21.72 51.38C18.05 51.38 14.56 49.73 12.2 46.9C9.85 44.07 8.88 40.35 9.55 36.73C10.76 30.16 13.81 24.08 18.35 19.12C18.46 18.96 18.55 18.82 18.66 18.66L0 0C0 16.97 0 23.13 0 66.03L17.16 66.03L31.73 66.03L59.68 66.03Z"/>
   </svg>
   @coach_dragi
 </footer>
